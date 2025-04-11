@@ -1,0 +1,15 @@
+{
+  "build": {
+    "env": {}
+  },
+  "deploy": {
+    "startCommand": "python3 mtprotoproxy.py"
+  },
+  "services": [
+    {
+      "name": "mtproto",
+      "port": 443,
+      "protocol": "tcp"
+    }
+  ]
+}
